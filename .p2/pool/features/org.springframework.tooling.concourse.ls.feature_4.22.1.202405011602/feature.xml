@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+	id="org.springframework.tooling.concourse.ls.feature"
+	label="Concourse Pipeline Language Server Feature"
+	version="4.22.1.202405011602"
+	provider-name="Broadcom">
+
+    <description>
+       %description
+    </description>
+
+    <copyright>
+       %copyright
+    </copyright>
+
+    <license url="%licenseUrl">
+       %license
+    </license>
+
+	<requires>
+		<import plugin="org.eclipse.ui.genericeditor"/>
+		<import plugin="org.eclipse.lsp4e"/>
+	</requires>
+
+	<plugin
+		id="org.springframework.tooling.concourse.ls"
+		download-size="19995"
+		install-size="23105"
+		version="1.54.0.202405011602"
+		unpack="false">
+	</plugin>
+
+</feature>
